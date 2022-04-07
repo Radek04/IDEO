@@ -1,0 +1,101 @@
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Strona główna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="logo.png" alt="logo" width="10%" style="position: absolute;
+            top:0;left:25%;">
+            <ol id="naglowek">
+                <li>Aktualności</li>
+                <li>Branże</li>
+                <li>Produkty</li>
+                <li>Usługi</li>
+                <li>Referencje</li>
+                <li>Kontakt</li>
+            </ol>
+                <img src="szukaj.png" alt="szukaj" width="1.5%" onclick="szukaj()">
+                <input type="search" id="input-szukaj" class="wyl">
+        </header>
+        <nav id="nawigacja">
+            <span>Menu</span><br><br><hr><br>
+            <ol>
+                <li>Aktualności</li>
+                <li>Branże</li>
+                <li>Produkty</li>
+                <li>Usługi</li>
+                <li>Referencje</li>
+                <li>Kontakt</li>
+            </ol><hr><br>
+            <ol>
+                <li>O firmie</li>
+                <li>Nagrody</li>
+                <li>Relacje</li>
+                <li>inwestorskie</li>
+                <li>Kariera</li>
+            </ol><hr><br>
+            <ol>
+                <li>
+                    <img src="facebook.png" alt="facebook">
+                </li>
+                <li>
+                    <img src="linkedin.png" alt="linkedin">
+                </li>
+            </ol>
+        </nav>
+        <div id="rozwijanie">
+            <img src="strzalka_lewo.png" alt="strzałka w lewo" id="zwijanie" class="lewo" onclick="menu()">
+            <p id="napis-menu">menu</p>
+        </div>
+        <section id="glowny">
+            <article id="naglowek-strony">
+                <img src="home.png" alt="strona" >
+                <h2>O FIRMIE</h2>
+            </article>
+            <article id="tekst">
+                <p>SIMPLE - z nami biznes jest prostszy!</p>
+                <div id="czesc1">
+                    <img src="zdjecie.png" alt="zdjecie" width="70%"><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus mauris, dapibus at suscipit eget, aliquet a
+                    arcu. Fusce ullamcorper fringilla lectus eu aliquam. Fusce tempor ipsum ac nibh iaculis, in eleifend nulla consectetur.
+                    Fusce luctus metus a dolor consequat auctor. Praesent vel nisl a quam placerat scelerisque. Suspendisse rhoncus nisi eu
+                    arcu iaculis, pretium posuere lectus lacinia. Vestibulum nibh lectus, egestas ut scelerisque et, euismod vel metus.
+                    <br>
+                    <br>
+                    Vivamus vel purus maximus, vulputate mauris eu, elementum tellus. Donec condimentum ultricies feugiat. Integer urna dui,
+                    tincidunt eget rutrum ac, venenatis sit amet dolor. In hac habitasse platea dictumst. Aenean est odio, egestas porta
+                    turpis sed, efficitur ultrices sapien. Quisque posuere, risus vitae ultric
+                </div>
+                <div id="czesc2">
+                    Morbi ut semper augue. Etiam non ante in dui placerat egestas ac eget mauris. Proin aliquet convallis nisi, vitae
+                    molestie eros condimentum ut. Nam dictum sodales arcu quis pulvinar. In hac habitasse platea dictumst. Ut tempus
+                    ultrices massa at aliquam. Nam tortor eros, bibendum molestie est at, gravida faucibus elit.
+                    <br>
+                    <br>
+                    Vestibulum non arcu neque. Aliquam varius, urna sed sollicitudin luctus, ex quam imperdiet odio, vitae accumsan ipsum
+                    neque ut diam. Etiam in justo id tellus congue rhoncus. In hac habitasse platea dictumst. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget malesuada turpis, quis consectetur urna. Sed in
+                    sapien nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec a efficitur
+                    ipsum. Curabitur felis nulla, blandit blandit leo non, sodales consectetur massa. Suspendisse potenti. Quisque eget
+                    venenatis ligula. Nullam tincidunt ac tortor sed finibus.
+                    <br>
+                    <br>
+                    Nulla a dolor suscipit, euismod libero ac, tempus odio. Aliquam placerat, diam a laoreet scelerisque, tortor eros
+                    porttitor dui, ac blandit urna ligula in libero. Vestibulum diam mauris, porttitor vitae dolor eget, faucibus blandit
+                    arcu. Donec rhoncus metus libero, nec volutpat purus volutpat vitae. Proin cursus ultricies dui non finibus. Praesent
+                    vel ante aliquam, feugiat eros ut, semper elit. 
+                </div>
+            </article>
+        </section>
+        <footer>
+        </footer>
+    </main>
+</body>
+</html>
